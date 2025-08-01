@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weights and large files
+models/*
+!models/.gitkeep
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Datasets (you can add dummy samples in repo)
+datasets/*
+!datasets/.gitkeep
+
+# Audio/voice
+assets/voice/*
+!assets/voice/.gitkeep
+
+# GUI compiled stuff
+*.pyc
+*.pyd
+*.pdb
+
+# VSCode and IDE config
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# If you use Flask/Tkinter debug
+*.db
+instance/
