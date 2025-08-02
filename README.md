@@ -1,75 +1,93 @@
+# Harry.AI - Private Nepali Voice Assistant 🧠
 
-# 🤖 HARRY.AI – Your Personal AI Assistant
-
-> "Smarter tasks start with Harry.AI"
-
-HARRY.AI is a powerful AI-based desktop assistant built by **Harsh**, designed to assist you with real-time conversations, coding, object recognition, file reading, and much more. It works offline and evolves as you use it.
+Welcome to **Harry.AI**, an open-source, privacy-focused, multilingual desktop assistant designed for **real users**, not corporations. Think of it as your own **Nepali Jarvis**, living inside your machine, ready to learn, help, and evolve with you.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🎤 **Voice Interaction** – Wake-word based command system
-- 📷 **Live Webcam Integration** – Object detection & real-time vision (CNN)
-- 📄 **PDF/Docs Understanding** – Learn from your uploads
-- 💬 **Custom LLM Integration** – Locally trained LLM for chats & coding help
-- 🧠 **Memory & Updates** – Remembers you, adapts, learns
-- 🌐 **Offline First** – Works without internet, updates when available
-- 🖥️ **Executable** – Packed `.exe` installer for Windows
-
----
-
-## 🧱 Tech Stack
-
-- `Python`, `Tkinter`, `OpenCV`
-- `SpeechRecognition`, `PyTorch`, `Transformers`, `TinyDB`
-- `CNN`, `RNN`, `LLM (custom)`
-- `Threading`, `AsyncIO`, `TTS/STT`
+* 🗣️ **Voice-based assistant** (Nepali, Hindi, English)
+* 🔐 **100% local processing** — No data leaves your device
+* ⚙️ **Automates everyday tasks** (open apps, play music, schedule reminders, search offline docs, etc.)
+* 🔌 **Modular Plugin System** – Easily add your own skills or community modules
+* 🧠 **Self-Learning Capabilities** (habit detection, smart suggestions)
+* 🖥️ **Deep OS Integration** – Control your device hands-free
+* 🌙 **Offline Mode Available**
 
 ---
 
-## 🛠️ Installation
+## 💡 Why Harry.AI when ChatGPT and Grok exist?
 
-```bash
-git clone https://github.com/your-username/harry-ai.git
-cd harry-ai
-pip install -r requirements.txt
-python main.py
+| Feature                       | ChatGPT/Grok | Harry.AI                         |
+| ----------------------------- | ------------ | -------------------------------- |
+| Cloud Dependency              | Yes          | No (Offline Capable)             |
+| Multilingual Regional Support | Limited      | Yes (Nepali, Hindi, Bhojpuri...) |
+| Personalized Learning         | Minimal      | Local + Adaptive                 |
+| Device Control                | Limited      | Deep OS Integration              |
+| Pricing                       | Paid         | Free & Open Source               |
+| Custom Modules                | Not Open     | Plugin-Based                     |
+
+> **Harry.AI empowers individuals** to use AI like a true assistant — private, offline, and fully customizable.
+
+---
+
+## 📁 Project Structure
+
+```
+Harry.AI/
+│
+├── core/                 # Core assistant logic (processing, NLP, memory)
+├── plugins/              # Modular plugin system (weather, jokes, search, etc.)
+├── interface/            # Voice input/output, desktop interface (Tkinter, PyGame)
+├── models/               # Pretrained or fine-tuned local models
+├── assets/               # Audio, avatars, icons
+├── config/               # Language configs, voice settings
+├── utils/                # Helper scripts
+│
+├── requirements.txt      # All dependencies (offline installable)
+├── .gitignore            # Ignored files/folders
+├── README.md             # This file 😄
+└── roadmap.md            # Long-term vision and phases
 ```
 
-> 🪟 `.exe` version coming soon!
+---
+
+## 🛠 Installation
+
+```bash
+# 1. Make sure Python 3.13+ and pip are installed
+python --version
+pip --version
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the assistant (demo will come soon)
+python interface/demo.py
+```
+
+> Currently under heavy development. You are welcome to contribute!
 
 ---
 
-## 📽️ YouTube Series
+## 🤝 Contributions
 
-> [🔗 Follow the YouTube Playlist](https://youtube.com/@TechyGuy)  
-Watch the full **Build Harry.AI from Scratch** series and learn how to make your own AI Assistant.
+We’re building this together. Feel free to:
 
----
-
-## 👤 Author
-
-**Harsh Chaudhary**  
-🧠 [@TechyGuy](https://youtube.com/@TechyGuy)  
-🌐 [harshchaudhary.com.np](https://harshchaudhary.com.np)
+* Suggest features
+* Build plugins
+* Translate Harry into other languages
+* Optimize performance
+* Make this the smartest desi assistant ever 🙌
 
 ---
 
-## 🧪 Status
+## 🔒 Privacy & Ethics
 
-📅 **Daily updates in progress**  
-💡 *This is an academic final project with real-world use cases.*
-
----
-
-## 💬 Contribution
-
-Contributions, ideas, feedback?  
-**Raise an issue** or **submit a pull request** – Let’s grow Harry.AI together!
+Harry.AI is **open-source and offline-first** by design. No user data is collected or transmitted. Ever.
 
 ---
 
-## 📜 License
+## 📍 Built with ❤️ in Nepal
 
-This project is licensed under the [MIT License](LICENSE).
+Join the movement to make AI **accessible, ethical, and desi**.
